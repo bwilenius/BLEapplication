@@ -37,7 +37,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     //MARK: Actions
-    @IBAction func cancel(_ sender: Any) {
+   
+    @IBAction func cancelButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     

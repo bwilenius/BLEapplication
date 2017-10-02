@@ -69,7 +69,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="UwH-Zu-L4J">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="9kg-6r-cbk"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="9kg-6r-cbk">
+                            <connections>
+                                <action selector="cancelButton:" destination="EA1-I7-e1H" id="uxW-Wc-a85"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Send" id="9tD-yf-IHG"/>
                     </navigationItem>
                     <connections>
