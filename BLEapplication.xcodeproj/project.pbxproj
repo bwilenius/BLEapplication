@@ -11,7 +11,6 @@
 		AA9FDE411F7B31AE00E83150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDE401F7B31AE00E83150 /* ViewController.swift */; };
 		AA9FDE441F7B31AE00E83150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9FDE421F7B31AE00E83150 /* Main.storyboard */; };
 		AA9FDE461F7B31AE00E83150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9FDE451F7B31AE00E83150 /* Assets.xcassets */; };
-		AA9FDE491F7B31AE00E83150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9FDE471F7B31AE00E83150 /* LaunchScreen.storyboard */; };
 		AA9FDE541F7B31AE00E83150 /* BLEapplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9FDE531F7B31AE00E83150 /* BLEapplicationTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		AA9FDE401F7B31AE00E83150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA9FDE431F7B31AE00E83150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9FDE451F7B31AE00E83150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA9FDE481F7B31AE00E83150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9FDE4A1F7B31AE00E83150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9FDE4F1F7B31AE00E83150 /* BLEapplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEapplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9FDE531F7B31AE00E83150 /* BLEapplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEapplicationTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				AA9FDE401F7B31AE00E83150 /* ViewController.swift */,
 				AA9FDE421F7B31AE00E83150 /* Main.storyboard */,
 				AA9FDE451F7B31AE00E83150 /* Assets.xcassets */,
-				AA9FDE471F7B31AE00E83150 /* LaunchScreen.storyboard */,
 				AA9FDE4A1F7B31AE00E83150 /* Info.plist */,
 			);
 			path = BLEapplication;
@@ -179,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9FDE491F7B31AE00E83150 /* LaunchScreen.storyboard in Resources */,
 				AA9FDE461F7B31AE00E83150 /* Assets.xcassets in Resources */,
 				AA9FDE441F7B31AE00E83150 /* Main.storyboard in Resources */,
 			);
@@ -229,14 +225,6 @@
 				AA9FDE431F7B31AE00E83150 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AA9FDE471F7B31AE00E83150 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA9FDE481F7B31AE00E83150 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,6 +396,7 @@
 				AA9FDE5A1F7B31AE00E83150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9FDE5B1F7B31AE00E83150 /* Build configuration list for PBXNativeTarget "BLEapplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +405,7 @@
 				AA9FDE5D1F7B31AE00E83150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
