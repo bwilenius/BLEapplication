@@ -74,7 +74,11 @@
                                 <action selector="cancelButton:" destination="EA1-I7-e1H" id="uxW-Wc-a85"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Send" id="9tD-yf-IHG"/>
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="9tD-yf-IHG">
+                            <connections>
+                                <action selector="sendButton:" destination="EA1-I7-e1H" id="R9C-eh-9oT"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="cancelButton" destination="9kg-6r-cbk" id="Syh-3w-HvU"/>

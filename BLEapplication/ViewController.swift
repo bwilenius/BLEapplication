@@ -42,4 +42,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func sendButton(_ sender: Any) {
+        textInput.text = "";
+    }
+    
+    
 }
